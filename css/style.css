@@ -200,3 +200,35 @@ footer > img {
   height: 35px;
   width: 89px;
 }
+
+/* Medium Screens */
+@media (min-width: 768px) {
+  .size__wrapper {
+    width: calc(768px - 30px);
+  }
+
+  header {
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 723px;
+    margin: 130px 0 -175px;
+  }
+
+  header > .hero-img {
+    content: url("../assets/image-hero-tablet.webp");
+    position: absolute;
+    width: 695px;
+    height: 723px;
+    transform: translateX(45%) translateY(-35%);
+  }
+
+  .card-grid {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+
+  .card:nth-child(1) {
+    align-self: stretch;
+  }
+}
