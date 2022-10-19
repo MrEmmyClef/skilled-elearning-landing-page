@@ -1,0 +1,21 @@
+html:root {
+    /* Single Colors */
+    --purple: #666CA3;
+    --blue: #13183F;
+    --gray: #83869A;
+    --pink-dark: #F74780;
+    --pink-light: #FFA7C3;
+    --white: #FFFFFF;
+  
+    /* Gradient Colors */
+    --gradient-pink: #F02AA6;
+    --gradient-orange: #FF6F48;
+    --gradient-blue: #4851FF;
+    --gradient-background-bottom: #F0F1FF;
+  
+    /* Button Measurements */
+    --button-padding-top-bottom: 2.1rem;
+    --button-padding-left-right: 0.933rem;
+  
+    font-size: 15px;
+}
