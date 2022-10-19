@@ -232,3 +232,37 @@ footer > img {
     align-self: stretch;
   }
 }
+
+/* Larger Screens */
+@media (min-width: 1440px) {
+  .size__wrapper {
+    width: calc(1110px);
+  }
+
+  header {
+    grid-template-columns: 0.65fr 1fr;
+    position: relative;
+    height: 937px;
+    margin: 190px 0 -300px;
+  }
+
+  header > .hero-img {
+    content: url("../assets/image-hero-desktop.webp");
+    position: absolute;
+    width: 992px;
+    height: 937px;
+    transform: translateX(50%) translateY(-40%);
+  }
+
+  .card-grid {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    width: 1110px;
+    margin-bottom: 100px;
+  }
+
+  .card:nth-child(1) {
+    align-self: stretch;
+  }
+}
