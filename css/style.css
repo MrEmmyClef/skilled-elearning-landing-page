@@ -60,7 +60,8 @@ a {
 }
 
 .button__1 {
-  background-color: var(--blue);
+  /* background: linear-gradient(var(--gradient-blue), var(--gradient-pink)); */
+  background: #13183f;
 }
 
 .button__2 {
@@ -69,6 +70,16 @@ a {
 
 .button__3 {
   background: linear-gradient(var(--gradient-blue), var(--gradient-pink));
+}
+
+.card a:hover{
+  color: #ffa7c3;
+  cursor: pointer;
+} 
+
+.button__1:hover{
+  background-color: #666ca3;
+  cursor: pointer;
 }
 
 /* Nav */
