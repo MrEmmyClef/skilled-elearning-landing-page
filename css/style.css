@@ -129,6 +129,7 @@ header > .hero-img {
   content: url(../assets/image-hero-mobile.png);
   height: 301px;
   width: 327px;
+  z-index: -1;
 }
 
 /* Card Grid */
@@ -234,8 +235,8 @@ footer > img {
   }
 
   .card-grid {
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
   }
 
